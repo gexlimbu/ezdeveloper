@@ -4,9 +4,9 @@ You can greet new followers by using the **greetNewFollowers** methods.
 You only need to call this function once and it will continuosly look for new followers
 every 10 minutes. You can change this interval from the config file.
 
-If a new user follows you then he/she will be sent a custom message. You can set the custom message in the config file.
+If a new user follows you then *he/she* will be sent a custom message. You can set the custom message in the config file by changing the *"message_to_new_followers"* value.
 
-Syntax
+#### Syntax
 ```js
 greetNewFollowers(Bot, 'Hi there')
 ```
