@@ -16,8 +16,8 @@ greetNewFollowers(Bot)
 # 2. Message all my followers
 
 You can message all your followers by using he **greetMyFollowers** method.
-You only need to call this function one and it start to message every followers.
-You can set how frequently to send the message by editing the config file by changing the *message_interval* value. It is recommended to keep this value greater than 100 (seconds)
+You only need to call this function once and it will start to message every followers.
+You can set how frequently the bot needs to send the message by editing the config file by changing the *message_interval* value. It is recommended to keep this value greater than 100 (seconds)
 
 #### Syntax
 ```js
