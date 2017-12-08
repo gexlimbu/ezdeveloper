@@ -8,7 +8,7 @@ If a new user follows you then *he/she* will be sent a custom message. You can s
 
 #### Syntax
 ```js
-greetNewFollowers(Bot, 'Hi there')
+greetNewFollowers(Bot)
 ```
 
 # 3. Auto-follow people who follow a particular Twitter account
