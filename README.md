@@ -1,6 +1,6 @@
 # 1. Greet New Followers
 
-You can greet new followers by using the **greetNewFollowers** methods.
+You can greet new followers by using the **greetNewFollowers** method.
 You only need to call this function once and it will continuosly look for new followers
 every 10 minutes. You can change this interval from the config file.
 
@@ -10,6 +10,21 @@ If a new user follows you then *he/she* will be sent a custom message. You can s
 ```js
 greetNewFollowers(Bot)
 ```
+
+***
+
+# 2. Message all my followers
+
+You can message all your followers by using he **greetMyFollowers** method.
+You only need to call this function one and it start to message every followers.
+You can set how frequently to send the message by editing the config file by changing the *message_interval* value. It is recommended to keep this value greater than 100 (seconds)
+
+#### Syntax
+```js
+greetMyFollower(Bot)
+```
+
+***
 
 # 3. Auto-follow people who follow a particular Twitter account
 
