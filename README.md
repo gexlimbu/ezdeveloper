@@ -1,8 +1,8 @@
 # 1. Greet New Followers
 
 You can greet new followers by using the **greetNewFollowers** method.
-You only need to call this function once and it will continuosly look for new followers
-every 10 minutes. You can change this interval from the config file.
+You only need to call this function once to activate this feature.
+Once it is activated and it will continuosly look for new followers in realtime.
 
 If a new user follows you then *he/she* will be sent a custom message. You can set the custom message in the config file by changing the *"message_to_new_followers"* value.
 
@@ -52,7 +52,7 @@ You can use **getLimitedFollowers** method to follow the latest followers of a u
 It is, however, limited to 5000 new followers. This method takes 3 parameters
 
 * BOT
-* Targett
+* Target
 * Limit
 
 #### Syntax
@@ -73,4 +73,14 @@ You need to instead provide tweeter ID number which you can get from websites li
 #### Syntax
 ```js
 trackUsers(Bot, '923937847929383928');
+```
+
+# 5. Unfollow Users who doesn't follow me back
+
+You only need to call the **"unfollowMass"** function once and it will activate this feature.
+After activation it will unfollow users who haven't followed you back in 3 days
+
+#### Syntax
+```js
+unfollowMass(Bot);
 ```
